@@ -1,10 +1,11 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <cmath>
 
 using namespace std;
 
 int get_digit(int num, int pos) {
-    // 해당 자릿수의 숫자를 반환
     return (num / static_cast<int>(pow(10, pos))) % 10;
 }
 
