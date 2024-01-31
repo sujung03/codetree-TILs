@@ -10,7 +10,7 @@ public class Main {
 
         for (int i = n; i < m+1; i++) {
             if (i % 2 == 1) {
-                System.out.print(i+" ")
+                System.out.print(i+" ");
             }
         }
     }
